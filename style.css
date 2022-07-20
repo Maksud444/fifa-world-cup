@@ -143,6 +143,15 @@ body{
     display: flex;
     justify-content: space-around;
  }
+ .single-button{
+   display: none;
+ }
+ /* tablate button 
+  */
+  .tablate-button{
+   display: none;
+  }
+ 
  /* media query -------
   */
   /* 1- mobile device --*/
@@ -172,7 +181,7 @@ body{
     grid-template-columns: repeat(1,1fr);
     margin-top: 20px;
    }
-   .blogs .blogs-2{
+   .blogs{
       width: 100%;
       display: grid;
       grid-template-columns: repeat(1,1fr);
@@ -191,5 +200,69 @@ body{
     flex-direction: column;
     align-items: center;
    }
-  
+   .blogs-2{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      grid-column-gap: 10px;
+   }
+   .tablate-button{
+      display: none;
+   }
+   .single-button{
+      display: none;
+   }
   }
+  /* tablate devices ----
+   */
+   @media only screen and(min-width:688px) and(max-width:992px){
+   .main-blog{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-column-gap: 10px;
+    }
+   .blogs .blogs-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 10px;
+}
+.live-match{
+   display: none;
+}
+.tablate-button{
+     display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      margin-top: 30px;
+
+  }
+  .live-match-2 button{
+   padding: 30px;
+   background-color: white;
+  }
+  .live-match-2 a{
+   text-decoration: none;
+   color: black;
+   font-size: 15px;
+   font-weight: bold;
+  }
+  .single-button{
+   width: 180px;
+   height: 40px;
+   margin: 40px;
+   padding: 30px;
+   background-color: red;
+   color: black;
+   margin-left: 350px;
+  }
+  .single-button a{
+   text-decoration: none;
+   font-size: 25px;
+   font-weight: bold;
+   color: black;
+  }
+}
+   
+   
