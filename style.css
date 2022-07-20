@@ -62,23 +62,74 @@ body{
     grid-column-gap: 10px;
     
  }
+ .blog{
+    width: 310px;
+    height: 350px;
+    gap: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 5px;
+ }
+ .blog-info{
+    padding-left: 18px;
+ }
+ .blog-info button a{
+    text-decoration: none;
+ }
  .live-match{
     height: 150px;
-    margin: 30px;
-    padding: 40px;
+    margin: 16px;
+    padding: 50px;
     background-color: black;
+    text-decoration: none;
  }
+ .live-match button{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+ }
+ .live-match button a{
+    text-decoration: none;
+    color: black;
+    
+ }
+ #blog-btn{
+    background-color: red;
+ }
+ /* blog page2 ----------
+  */
+.blogs-2{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-column-gap: 10px;
+}
+.blog-2{
+    width: 279px;
+    height: 180px;
+    gap: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15px;
+}
  /* footer --------
   */
   footer{
-    width: 1220px;
-    height: 400px;
+    width: 100%;
+    height: 250px;
     background-color: black;
+    margin: -36px;
+    padding: 38px;
+    margin-top: 50px;
   }
   footer h2{
      color: white;
      text-align: center;
   }
   footer p{
-    display: flex;
+    color: white;
   }
+ .footer-info{
+    display: flex;
+    justify-content: space-around;
+ }
