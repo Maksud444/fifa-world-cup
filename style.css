@@ -87,10 +87,14 @@ body{
     width: 100px;
     height: 40px;
     background-color: white;
+    
  }
  .live-match button a{
     text-decoration: none;
     color: black;
+    font-size: 15px;
+    font-weight: bold;
+    
     
  }
  #blog-btn{
@@ -111,6 +115,12 @@ body{
     border-radius: 10px;
     margin: 5px;
     padding: 15px;
+}
+#upcomming-btn{
+   background-color: red;
+}
+#blog-btn-2{
+   background-color: white;
 }
  /* footer --------
   */
