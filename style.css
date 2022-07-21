@@ -8,7 +8,7 @@ marquee{
    height: 100vh;
 }
 .ball{
-   max-width: 200px;
+   max-width: 100px;
    animation: animate 3s linear infinite;
 }
 @keyframes animate {
